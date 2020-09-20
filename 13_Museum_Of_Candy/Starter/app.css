@@ -1,0 +1,53 @@
+body {
+    background: #f5d9df;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+/*
+@media allows to change size of elements acoordint to screen size:
+here- before point 1600/1400/1200px - initial sizes- above
+*/
+@media (max-width: 1600px){
+    #headingGroup h1  {
+        font-weight: 100;
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1400px){
+    #headingGroup h1  {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1200px){
+    #headingGroup h1  {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+}
